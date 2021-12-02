@@ -7,8 +7,9 @@ pip install -r requirements.txt
 
 ## Text of Test Task
 Download pandas json : https://ai-process-sandy.s3.eu-west-1.amazonaws.com/purge/deviation.json
-Context: 
-These are deviations of floor vs ceiling corners of one of our models with ground truth labels for the room name and number of corners in that room with predictions. Please create meaningful statistics of how well the model performed. 
+Context:
+These are deviations of floor vs ceiling corners of one of our models with ground truth labels for the room name and number of corners in that room with predictions. 
+Please create meaningful statistics of how well the model performed. 
  
 Gt_corners = ground truth number of corners in the room
 Rb_corners = number of corners found by the model
